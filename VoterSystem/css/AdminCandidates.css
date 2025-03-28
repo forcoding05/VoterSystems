@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: #fff;
+  }
+  .container {
+    max-width: 1200px;
+  }
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .header-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .dashboard-header {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .card {
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  table {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  table th {
+    background-color: #5563DE;
+    color: #fff;
+  }
+  .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+  }
+  .btn-outline-light:hover {
+    background: #fff;
+    color: #5563DE;
+  }

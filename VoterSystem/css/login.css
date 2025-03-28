@@ -1,0 +1,85 @@
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Form Container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Form Styling */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Heading */
+h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 91, 187, 0.3);
+}
+
+/* Submit Button */
+.btn-login {
+    background-color: #007bff;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    width: 100%; /* Button takes full width */
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+/* Links */
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Form Spacing */
+.form-group {
+    margin-bottom: 15px;
+}
+
